@@ -1,0 +1,21 @@
+# ODV基本工作参数配置
+# 注：该配置文件参数不支持中文
+[server]
+# 本机跨域通信用IP地址
+# local=12.0.0.138
+# 对端跨域通信用IP地址
+remote=10.0.0.87
+# 隧道接口名称
+tunnel=tap1
+# 网桥名称
+bridge=br-odv
+# 日志功能开关(on/off)
+log=off
+
+# 配置可用vlan范围
+[vlan]
+# 可用vlan最小id
+vmin=200
+# 可用vlan最大id
+vmax=212
+
